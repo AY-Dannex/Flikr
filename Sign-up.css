@@ -1,0 +1,140 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(https://identity.flickr.com/img/033120190455-by-Henry.2edde7a9.jpg);
+    background-size: 130rem;
+    background-position-x: center;
+    background-position-y: -38rem;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgb(29, 29, 29);
+    height: 3.1rem;
+    display: flex;
+}
+
+header>a>img{
+    width: 6.2rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+
+main{
+    background-color: white;
+    width: 26rem;
+    height: 41rem;
+    position: relative;
+    top: 6px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+main>.top{
+    background-color: white;
+    width: 20rem;
+    margin: auto;
+}
+
+main>.top>img{
+    margin-top: 1rem;
+    width: 9rem;
+    margin-left: 8.8rem;
+}
+
+main>.top>h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 0rem;
+}
+
+main>form>input{
+    width: 20rem;
+    height: 1.2rem;
+    margin-left: 2rem;
+    border-radius: 5px;
+    border-color: #ddd;
+    border: 1px solid #505050;
+    outline-color: #0265dd;
+    font-size: 14px;
+    padding: 1rem;
+}
+
+main>form>span{
+    position: relative;
+    top: 1rem;
+    left: 1.5rem;
+}
+
+main>form>span>input{
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+}
+
+main>form>span>p{
+    position: relative;
+    top: -2.7rem;
+    left: 3rem;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main>form>button{
+    width: 22rem;
+    height: 2.5rem;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 3px;
+    border: none;
+    background-color: #0265dd;
+    color: white;
+    margin-left: 2rem;
+    position: relative;
+    top: -4rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+main>form>button:hover{
+    background-color: white;
+    color: #0265dd;
+    border: 1px solid #0265dd;
+}
+
+main>.buttom{
+    width: 23rem;
+    margin: auto;
+    margin-top: -5rem;
+}
+
+main>.buttom>.one{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6a6a6a;
+    text-decoration: none;
+}
+
+main>.buttom>.one>a{
+    text-decoration: none;
+    color: #0265dd;
+}
+
+main>.buttom>.one>a:hover{
+    text-decoration: underline;
+}
+
+main>.buttom>.two{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center
+}
+
+main>.buttom>.two>a{
+    text-decoration: none;
+    color: #0265dd;
+}
+
+main>.buttom>.two>a:hover{
+    text-decoration: underline;
+}

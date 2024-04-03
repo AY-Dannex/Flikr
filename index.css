@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: static;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    background-position-y: -9rem;
+    background-repeat: no-repeat;
+    animation: animate 50s ease-in infinite;
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image: url(https://combo.staticflickr.com/ap/build/images/sohp/ybs2023/Barbara_van_der_Linde_Boet_and_Harvey.jpg);
+    }
+    15%{
+        background-image: url(https://combo.staticflickr.com/ap/build/images/sohp/ybs2023/Kris_Peterson_Back_to_The_Future.jpg);
+    }
+    30%{
+        background-image: url(https://combo.staticflickr.com/ap/build/images/sohp/ybs2023/Rui_Palha_Pigeons_at_Bolhao.jpg);
+    }
+    45%{
+        background-image: url(https://combo.staticflickr.com/ap/build/images/sohp/ybs2023/Sally_Rose_Dolak_Tropical_Trendil_Treasure.jpg);
+    }
+    60%{
+        background-image: url(https://combo.staticflickr.com/ap/build/images/sohp/ybs2023/Sean_Sweeney_Snow_Beauty.jpg);
+    }
+    75%{
+        background-image: url(https://combo.staticflickr.com/ap/build/images/sohp/ybs2023/ines_maria_wingsofvienna.jpg);
+    }
+}
+
+header{
+    background-color: rgb(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0rem;
+}
+
+header>a>img{
+    width: 6rem;
+    margin-top: 1.2rem;
+}
+
+header>.search{
+    display: inline;
+    background-color: #ddd;
+    height: 30px;
+    width: 60rem;
+    margin-top: 1rem;
+    position: relative;
+    padding: 0px 0px 0px 10px;
+    border-radius: 3px;
+}
+
+header>.search>button{
+    background-color: #ddd;
+    border: none;
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+header>.search>button>img{
+    width: 16px;
+}
+
+header>.search>input{
+    height: 30px;
+    width: 59rem;
+    border: none;
+    padding: 0px 0px 0px 40px;
+    border-radius: 0.3rem;
+    font-size: 14px;
+    outline: none;
+    background-color: #ddd;
+}
+
+header>.left_links{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.4rem;
+}
+
+header>.left_links>.Login{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+header>.left_links>a>button{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 2px;
+    border: none;
+    position: relative;
+    bottom: 0.3rem;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: .3s;
+}
+
+header>.left_links>a>button:hover{
+    background-color: #0265dd;
+    color: white;
+}
+
+header>.left_links>button>a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    margin: auto;
+    width: 43rem;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 12rem;
+}
+
+main>h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3.2rem;
+    font-weight: light;
+}
+
+main>p{
+    color: white;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: -2rem;
+}
+
+main>a>button{
+    padding: 5px;
+    font-size: 22px;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: .4s;
+}
+
+main>a>button:hover{
+    background-color: #ff0180;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    justify-content: center;
+}
+
+footer>ul{
+    display: flex;
+    gap: 3.8rem;
+}
+
+footer>ul>a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: .4s;
+}
+
+footer>ul>a:hover{
+    color: #0265dd;
+}
+
+footer>ul>a>li{
+    list-style-type: none;
+    font-size: 14px;
+}
